@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/training/goal/static/css/main.3cd3d9e1.css",
+    "main.js": "/training/goal/static/js/main.3bb12c94.js",
+    "static/media/Inter-Bold.ttf": "/training/goal/static/media/Inter-Bold.0eaf807b1cf0eceabe0f.ttf",
+    "static/media/Inter-SemiBold.ttf": "/training/goal/static/media/Inter-SemiBold.6058d3da655fb35169c2.ttf",
+    "static/media/Inter-Medium.ttf": "/training/goal/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/Inter-Regular.ttf": "/training/goal/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/back.svg": "/training/goal/static/media/back.2a373f96fabaf6e1f53a.svg",
+    "index.html": "/training/goal/index.html",
+    "main.3cd3d9e1.css.map": "/training/goal/static/css/main.3cd3d9e1.css.map",
+    "main.3bb12c94.js.map": "/training/goal/static/js/main.3bb12c94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cd3d9e1.css",
+    "static/js/main.3bb12c94.js"
+  ]
+}
