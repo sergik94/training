@@ -1,0 +1,49 @@
+@import '../../assets/styles/utils/variables.scss';
+
+.goal {
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  &__card {
+    height: 172px;
+    border-radius: 20.848px;
+    border: 1.042px solid $lightgray-col;
+    background: linear-gradient(214deg, #f1f1f1 12.33%, #fff 69.93%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+
+    &--active {
+      border: 1px solid $green-col;
+    }
+  }
+
+  &__card-title {
+    font-size: 16.679px;
+    font-weight: 500;
+    line-height: 22.933px;
+    letter-spacing: 0.208px;
+    margin-left: 10px;
+  }
+
+  &__img-container {
+    width: 50%;
+    flex-shrink: 0;
+    position: relative;
+    height: 100%;
+  }
+
+  &__img {
+    position: absolute;
+    display: block;
+    object-fit: contain;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+}

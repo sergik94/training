@@ -1,0 +1,40 @@
+@import '../../assets/styles/utils/variables.scss';
+
+.behaviors {
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 130px;
+  }
+
+  &__card {
+    padding: 12px 24px 12px 15px;
+    border-radius: 15px;
+    border: 1px solid $lightgray-col;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &--active {
+      border: 1px solid $green-col;
+    }
+  }
+
+  &__card-title {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+  }
+
+  &__img-container {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  &__img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+  }
+}

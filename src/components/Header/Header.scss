@@ -1,0 +1,35 @@
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__link {
+    display: block;
+    width: 10px;
+    height: 30px;
+    margin-right: 20px;
+    background: center / contain no-repeat url('../../assets/icons/back.svg');
+  }
+
+  &__img-container {
+    padding: 4.5px;
+    height: 33.5px;
+    width: 33.5px;
+    margin-right: 10px;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &__title {
+    color: #374234;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.45px;
+  }
+}

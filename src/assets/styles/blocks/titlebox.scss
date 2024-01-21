@@ -1,0 +1,23 @@
+.titlebox {
+  text-align: center;
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+  }
+
+  &__description {
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+  }
+}

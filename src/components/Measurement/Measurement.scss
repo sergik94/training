@@ -1,0 +1,57 @@
+@import '../../assets/styles/utils/variables.scss';
+
+.measurement {
+  &__units {
+    border-radius: 10px;
+    border: 1px solid $green-col;
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  &__unit-label {
+    display: block;
+    width: 50%;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: $green-col;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+    &--active {
+      background: rgba(95, 203, 57, 0.20)
+    }
+  }
+
+  &__unit-input {
+    display: none;
+  }
+
+  &__data-container {
+    margin-bottom: 160px;
+  }
+
+  &__data {
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 10px;
+    border: 1px solid $lightgray-col;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+
+    &:focus {
+      border: 1px solid #bebebe;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &--not-valid {
+      background-color: pink;
+    }
+  }
+}

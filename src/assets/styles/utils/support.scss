@@ -1,0 +1,17 @@
+._container {
+  max-width: 1110px + 40px * 2;
+  width: 100%;
+  padding: 0 40px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  @media (max-width: 420px) {
+    padding: 0 20px;
+  }
+
+  &--local {
+    max-width: 360px + 20px * 2;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
