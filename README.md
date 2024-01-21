@@ -1,1 +1,1 @@
-Demo Link - https://sergik94.github.io/training/goal
+Demo Link - https://sergik94.github.io/training
