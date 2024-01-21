@@ -70,8 +70,6 @@ export const Measurement = () => {
     setCurrUnits(units);
   }, [userInfo.measurement.measSystem]);
 
-  console.log(userInfo);
-
   return (
     <div className="app__measurement measurement _container--local">
       <div className="titlebox">
