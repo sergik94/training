@@ -73,6 +73,7 @@ export const Behaviors = () => {
             })}
             key={bh.title}
             onClick={() => onBehaviorClick(bh.title)}
+            data-testid="behavior-card"
           >
             <div className="behaviors__img-container">
               <img src={bh.imgPath} alt={bh.title} className="behaviors__img" />
