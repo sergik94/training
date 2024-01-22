@@ -32,7 +32,7 @@ export const Goal = () => {
   };
 
   return (
-    <div className="app__goal goal _container--local">
+    <div className="app__goal goal _container--local" data-testid="goal">
       <div className="titlebox">
         <h2 className="titlebox__title">The Goal</h2>
         <p className="titlebox__description">
@@ -51,6 +51,7 @@ export const Goal = () => {
             })}
             key={card.title}
             onClick={() => onGoalClick(card.title)}
+            data-testid="goal-card"
           >
             <span className="goal__card-title">{card.title}</span>
 

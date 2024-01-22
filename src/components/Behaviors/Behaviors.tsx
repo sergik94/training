@@ -54,7 +54,10 @@ export const Behaviors = () => {
   };
 
   return (
-    <div className="app__behaviors behaviors _container--local">
+    <div
+      className="app__behaviors behaviors _container--local"
+      data-testid="behaviors"
+    >
       <div className="titlebox">
         <h2 className="titlebox__title">Destructive behaviors</h2>
         <p className="titlebox__description">
@@ -70,6 +73,7 @@ export const Behaviors = () => {
             })}
             key={bh.title}
             onClick={() => onBehaviorClick(bh.title)}
+            data-testid="behavior-card"
           >
             <div className="behaviors__img-container">
               <img src={bh.imgPath} alt={bh.title} className="behaviors__img" />

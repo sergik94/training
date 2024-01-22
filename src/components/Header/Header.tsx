@@ -15,11 +15,15 @@ export const Header = () => {
   };
 
   return (
-    <header className="app__header header">
-      <button className="header__link" onClick={handleClick} />
+    <header className="app__header header" data-testid="header">
+      <button
+        className="header__link"
+        onClick={handleClick}
+        data-testid="back"
+      />
 
       <div className="header__img-container">
-        <img src="./images/avocado.png" alt="Mentor" className="header__img" />
+        <img src="./images/avocado.png" className="header__img" />
       </div>
 
       <span className="header__title">Mentor</span>

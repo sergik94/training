@@ -18,7 +18,10 @@ export const Exercise = () => {
   };
 
   return (
-    <div className="app__exercise exercise _container--local">
+    <div
+      className="app__exercise exercise _container--local"
+      data-testid="exercise"
+    >
       <div className="titlebox">
         <h2 className="titlebox__title">Physical exercise</h2>
         <p className="titlebox__description">
@@ -41,6 +44,7 @@ export const Exercise = () => {
               })}
               key={activity}
               onClick={() => onActivityClick(activity)}
+              data-testid="exercise-card"
             >
               <span className="exercise__card-title">{activity}</span>
             </div>
