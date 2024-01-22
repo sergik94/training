@@ -51,6 +51,7 @@ export const Goal = () => {
             })}
             key={card.title}
             onClick={() => onGoalClick(card.title)}
+            data-testid="goal-card"
           >
             <span className="goal__card-title">{card.title}</span>
 
