@@ -71,7 +71,10 @@ export const Measurement = () => {
   }, [userInfo.measurement.measSystem]);
 
   return (
-    <div className="app__measurement measurement _container--local">
+    <div
+      className="app__measurement measurement _container--local"
+      data-testid="measurement"
+    >
       <div className="titlebox">
         <h2 className="titlebox__title">Measure Yourself</h2>
         <p className="titlebox__description">

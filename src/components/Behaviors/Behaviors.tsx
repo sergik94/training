@@ -54,7 +54,10 @@ export const Behaviors = () => {
   };
 
   return (
-    <div className="app__behaviors behaviors _container--local">
+    <div
+      className="app__behaviors behaviors _container--local"
+      data-testid="behaviors"
+    >
       <div className="titlebox">
         <h2 className="titlebox__title">Destructive behaviors</h2>
         <p className="titlebox__description">

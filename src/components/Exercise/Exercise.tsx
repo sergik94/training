@@ -18,7 +18,10 @@ export const Exercise = () => {
   };
 
   return (
-    <div className="app__exercise exercise _container--local">
+    <div
+      className="app__exercise exercise _container--local"
+      data-testid="exercise"
+    >
       <div className="titlebox">
         <h2 className="titlebox__title">Physical exercise</h2>
         <p className="titlebox__description">
