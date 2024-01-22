@@ -19,6 +19,7 @@ export const ContinueButton: FC<Props> = ({ path, isDisabled }) => {
       className="measurement__button continue-button"
       disabled={isDisabled}
       onClick={onContinueClick}
+      data-testid="continue"
     >
       Continue
     </button>

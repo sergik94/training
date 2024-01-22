@@ -91,6 +91,7 @@ export const Measurement = () => {
                 'measurement__unit-label--active':
                   measSystem === userInfo.measurement.measSystem,
               })}
+              data-testid="label"
             >
               {measSystem[0].toUpperCase() + measSystem.slice(1)}
             </label>
@@ -115,6 +116,7 @@ export const Measurement = () => {
           placeholder={`Height(${currUnits.height})`}
           value={userInfo.measurement.height}
           onChange={onChangeHeight}
+          data-testid="input-height"
         />
         <input
           type="text"
@@ -124,6 +126,7 @@ export const Measurement = () => {
           placeholder={`Currant Weight(${currUnits.weight})`}
           value={userInfo.measurement.weight}
           onChange={onChangeWeight}
+          data-testid="input-weight"
         />
       </div>
 
