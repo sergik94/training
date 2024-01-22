@@ -6,7 +6,7 @@ import { Behaviors } from './Behaviors';
 import App from '../../App';
 import { UserInfoProvider } from '../UserInfoContext';
 
-describe('Tests for Goal page', () => {
+describe('Tests for Bevaviors page', () => {
   test('should containe 6 "behavior-card"', () => {
     render(
       <MemoryRouter>

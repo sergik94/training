@@ -44,6 +44,7 @@ export const Exercise = () => {
               })}
               key={activity}
               onClick={() => onActivityClick(activity)}
+              data-testid="exercise-card"
             >
               <span className="exercise__card-title">{activity}</span>
             </div>
